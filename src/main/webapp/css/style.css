@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400&family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f4f6;
+}
+
+nav {
+  padding: 1em 2em;
+  border: 2px solid #e2e8f0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+nav input[type="text"] {
+  background-color: #f5f7fa;
+  border-radius: 17px;
+  padding: 0.65em 1em;
+  outline: none;
+  border: none;
+  width: 50ch;
+  font-size: 0.9rem;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.input {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+nav > .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.big {
+  width: 50px;
+  height: 50px;
+}
+
+.gray {
+  background-color: #d9d9d9;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 0.8fr 1.4fr 0.8fr;
+  padding: 1rem 0.25rem;
+  gap: 1rem;
+}
+
+.pane {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1.5rem 1rem;
+}
+
+.card-small {
+  height: 2.5rem;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 2px solid #e2e8f0;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.small {
+  width: 18px;
+  height: 18px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
+  border-radius: 5px;
+  padding: 0.25rem;
+  border: 2px solid #e2e8f0;
+  background-color: white;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 0.75rem;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.content-big {
+  height: 7rem;
+}
+
+.card-large {
+  height: 10rem;
+}
+
+.white {
+  background-color: white;
+}
+
+.card-medium {
+  height: 5.5rem;
+}
+
+.tag {
+  width: 7rem;
+  border-radius: 5px;
+}
+
+.card-small-medium {
+  height: 4rem;
+}
+
+.right-side > .content {
+  gap: 5px;
+  padding: 0.5rem;
+}
+
+.medium {
+  width: 35px;
+  height: 35px;
+}
+
+.line {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.line > .circle {
+  flex-shrink: 0;
+}
+
+.card-smallest {
+  height: 2rem;
+  padding: 0;
+}
+
+.bordered {
+  border: 2px solid #f4b343;
+}
+
+.more-gap {
+  gap: 25px !important;
+}
+
+h3 {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.theme-switcher {
+  font-size: 3rem;
+}
+
+.icon {
+  height: 3rem;
+  width: 3rem;
+  transform: rotate(45deg);
+  background: linear-gradient(purple, violet);
+}
