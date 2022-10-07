@@ -4,18 +4,43 @@
     Author     : Aashish Katwal
 --%>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Home</title>
-<!--<link rel="shortcut icon" href="${pageContext.request.contextPath}/Images/Favicon.png">-->
-<%@include file="Components/All_css_js.jsp" %>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>You Write: Show your creativity</title>
+
+        <link rel="shortcut icon" href="${pageContext.request.contextPath}/Images/Logo/Favicon.png">
+        <%@include file="/Components/All_css_js.jsp" %>
+
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/CSS/homepage.css" type="text/css" />
+
     </head>
     <body>
-        <h1>Hello World!</h1>
+
+        <div class="main-wrapper">
+            
+            <%@include file="/Components/leftbar-smd.jsp" %>
+
+            <!-- Header Section -->
+            <header>
+                <%@include file="/Components/topNav.jsp"%>
+            </header>
+
+            <!-- Main Body -->
+            <main>
+
+                <%@include file="/Components/left_Panel.jsp"%>
+
+                <%@include file="/Components/main_Panel.jsp"%>
+
+                <%@include file="/Components/right_Panel.jsp"%>
+            </main>
+
+        </div>
+            
+            <<script src="/JS/index.js"></script>
     </body>
 </html>
