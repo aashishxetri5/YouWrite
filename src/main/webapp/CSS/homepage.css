@@ -75,7 +75,6 @@ a {
   border-radius: 30%;
 }
 
-.main-wrapper,
 body {
   height: 100vh;
 }
@@ -97,7 +96,7 @@ main {
 header,
 .h-inner-wrapper {
   height: 70px;
-  width: 100vw;
+  width: 100%;
   background-color: var(--white);
 }
 
