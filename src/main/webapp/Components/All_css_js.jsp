@@ -7,3 +7,9 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+
+<!--Favicon-->
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/Images/Logo/Favicon.png">
+
+<!--Local CSS-->
+<link rel="stylesheet" href="../CSS/basic.css" type="text/css"/>
