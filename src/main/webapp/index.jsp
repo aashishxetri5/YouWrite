@@ -4,6 +4,7 @@
     Author     : Aashish Katwal
 --%>
 
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,7 +13,6 @@
 
         <title>You Write: Show your creativity</title>
 
-        <link rel="shortcut icon" href="${pageContext.request.contextPath}/Images/Logo/Favicon.png">
         <%@include file="/Components/All_css_js.jsp" %>
 
         <link rel="stylesheet" href="${pageContext.request.contextPath}/CSS/homepage.css" type="text/css" />
@@ -21,7 +21,7 @@
     <body>
 
         <div class="main-wrapper">
-            
+
             <%@include file="/Components/leftbar-smd.jsp" %>
 
             <!-- Header Section -->
@@ -40,7 +40,7 @@
             </main>
 
         </div>
-            
-            <<script src="/JS/index.js"></script>
+
+        <script src="/JS/index.js"></script>
     </body>
 </html>
