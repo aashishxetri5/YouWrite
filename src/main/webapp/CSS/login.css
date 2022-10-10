@@ -118,3 +118,8 @@ label {
     padding: 10px 0 0 10px;
     text-align: center;
 }
+
+.errmsg {
+    color: var(--err-red);
+    padding-top: 5px;
+}

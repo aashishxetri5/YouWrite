@@ -35,6 +35,7 @@ html {
   --border-gold: #ffa200;
   --sb-thumb: rgba(116, 115, 119, 0.4);
   --platinum: #e5e7eb;
+  --err-red: #D8000C;
   --animate-duration: 0.4s;
 }
 

@@ -34,18 +34,20 @@
                 <!-- Login Form Section -->
                 <div class="form" style="padding-bottom: 13px;">
                     <h1>Register</h1>
-                    <form action="#" id="login-f" method="POST" autocomplete="off">
+                    <form  id="login-f" method="POST" autocomplete="off">
                         <label for="fname">Fullname</label>
-                        <input class="lp-inp" type="fname" id="email" name="fullname" placeholder="Aashish Katwal" required />
-                        
+                        <input class="lp-inp" type="text" id="fname" name="fullname" placeholder="Aashish Katwal" required />
+
                         <label for="email">Email</label>
                         <input class="lp-inp" type="email" id="email" name="email" placeholder="aashish@example.com" required />
 
                         <label for="password">Password</label>
                         <input class="lp-inp" type="password" id="password" name="password" placeholder="***********" required />
 
-                        <label for="password">Confirm Password</label>
-                        <input class="lp-inp" type="password" id="password" name="c-password" placeholder="***********" required />
+                        <label for="c-password">Confirm Password</label>
+                        <input class="lp-inp" type="password" id="c-password" name="c-password" placeholder="***********" required />
+
+                        <p class="errmsg"></p>
                         
                         <input type="submit" class="login-btn" value="Register" />
                     </form>
@@ -57,5 +59,8 @@
 
             </div>
         </section>
+
+        <script src="/JS/pwdChecking.js"></script>
+
     </body>
 </html>
