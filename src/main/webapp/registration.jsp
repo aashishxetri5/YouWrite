@@ -1,7 +1,7 @@
 <%-- 
-    Document   : login
-    Created on : Oct 7, 2022, 9:01:42 PM
-    Author     : Aashish Katwal
+    Document   : registration
+    Created on : Oct 10, 2022, 3:03:25 PM
+    Author     : asus
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -32,28 +32,27 @@
                 </div>
 
                 <!-- Login Form Section -->
-                <div class="form">
-                    <h1>Login</h1>
+                <div class="form" style="padding-bottom: 13px;">
+                    <h1>Register</h1>
                     <form action="#" id="login-f" method="POST" autocomplete="off">
+                        <label for="fname">Fullname</label>
+                        <input class="lp-inp" type="fname" id="email" name="fullname" placeholder="Aashish Katwal" required />
+                        
                         <label for="email">Email</label>
-                        <input class="lp-inp" type="email" id="email" name="email" required />
+                        <input class="lp-inp" type="email" id="email" name="email" placeholder="aashish@example.com" required />
 
                         <label for="password">Password</label>
-                        <input class="lp-inp" type="password" id="password" name="password" required />
+                        <input class="lp-inp" type="password" id="password" name="password" placeholder="***********" required />
 
-                        <input type="submit" class="login-btn" value="Login" />
+                        <label for="password">Confirm Password</label>
+                        <input class="lp-inp" type="password" id="password" name="c-password" placeholder="***********" required />
+                        
+                        <input type="submit" class="login-btn" value="Register" />
                     </form>
-
-                    <!-- Password Reset Section -->
-                    <div class="pwd-reset">
-                        <a href="#" class="forgot-pwd">
-                            <i class="fa-solid fa-unlock-keyhole"></i> <span>Forgot Password?</span>
-                        </a>
-                    </div>
                 </div>
 
                 <div class="reg-user">
-                    <span>New here?</span> <a href="#" class="forgot-pwd">Register</a>
+                    <span>Already a user?</span> <a href="#" class="forgot-pwd">Login</a>
                 </div>
 
             </div>
