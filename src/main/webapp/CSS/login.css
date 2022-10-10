@@ -15,7 +15,6 @@ and open the template in the editor.
 .lw, .lw > .inner-wrapper, #login-f {
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
 }
 
 .lw {
@@ -23,6 +22,7 @@ and open the template in the editor.
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-size: .85rem;
 }
 
 .top {
@@ -38,8 +38,12 @@ and open the template in the editor.
     padding: 5px;
 }
 
+label {
+    font-weight: 500;
+}
+
 .back-btn {
-    line-height: 40px;
+    line-height: 3.5;
     padding: 0px 15px;
     border: none;
     cursor: pointer;
@@ -66,7 +70,7 @@ and open the template in the editor.
 
 label {
     color: var(--text);
-    line-height: 30px;
+    line-height: 1.7;
     padding-top: 10px;
 }
 
@@ -113,4 +117,9 @@ label {
 .reg-user {
     padding: 10px 0 0 10px;
     text-align: center;
+}
+
+.errmsg {
+    color: var(--err-red);
+    padding-top: 5px;
 }

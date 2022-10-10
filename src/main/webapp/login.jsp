@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="reg-user">
-                    <span>Already a user?</span> <a href="#" class="forgot-pwd">Login</a>
+                    <span>New here?</span> <a href="#" class="forgot-pwd">Register</a>
                 </div>
 
             </div>
